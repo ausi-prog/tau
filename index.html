@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #f39c12, #e74c3c, #8e44ad); /* Colorful gradient */
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(90deg, #2c3e50, #3498db);
+      color: white;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    /* Centering the navigation links horizontally */
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+    }
+
+    /* Style for navigation links */
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s, transform 0.3s;
+      padding: 10px 20px;
+      border-radius: 6px;
+      text-align: center;
+    }
+
+    nav a:hover {
+      color: #f1c40f;
+      transform: scale(1.1);
+    }
+
+    /* Different colors for each section's nav link */
+    #hobbies {
+      background-color: #f39c12; /* Orange */
+    }
+
+    #projects {
+      background-color: #e74c3c; /* Red */
+    }
+
+    #skills {
+      background-color: #8e44ad; /* Purple */
+    }
+
+    #contact {
+      background-color: #3498db; /* Blue */
+    }
+
+    section {
+      padding: 40px;
+      background-color: #ffffff;
+      margin: 20px auto;
+      width: 90%;
+      max-width: 1000px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    section:hover {
+      transform: scale(1.01);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #2c3e50;
+      color: white;
+    }
+
+    .social-links a {
+      margin: 0 10px;
+      color: #2c3e50;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s, transform 0.3s;
+    }
+
+    .social-links a:hover {
+      color: #3498db;
+      transform: scale(1.1);
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 12px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      transition: border-color 0.3s;
+    }
+
+    input:focus, textarea:focus {
+      border-color: #3498db;
+      outline: none;
+    }
+
+    button {
+      padding: 10px 25px;
+      background-color: #3498db;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s, transform 0.3s;
+    }
+
+    button:hover {
+      background-color: #2980b9;
+      transform: scale(1.05);
+    }
+
+    .profile-pic {
+      max-width: 150px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+    }
+
+    .gallery img {
+      width: 200px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 8px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+    }
+
+    #hobbies {
+      background-color: #fdf2e9;
+      border-left: 8px solid #e67e22;
+    }
+
+    #projects {
+      background-color: #eafaf1;
+      border-left: 8px solid #27ae60;
+    }
+
+    #contact {
+      background-color: #f0f5f9;
+      border-left: 8px solid #2980b9;
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to My KAESAH LIFE</h1>
+    <nav>
+      <a href="#profile">profile</a>
+      <a href="#skills" id="skills">skills</a>
+      <a href="#hobbies" id="hobbies">hobbies</a>
+      <a href="#projects" id="projects">projects</a>
+      <a href="#gallery">gallery</a>
+      <a href="#contact" id="contact">contact</a>
+    </nav>
+  </header>
+
+  <section id="profile">
+    <h2>My Profile</h2>
+    <img src="katleho.jpg" alt="katleho" class="profile-pic">
+    <p>Hello! I'm Katleho Pheko, a passionate broadcasting and journalism student at Limkokwing<br>I have a special desire to change the media landscape through my writings such as poems, inspirational books as well as research.<br> growing up, I have always been passionate about talking and being on television,hence my pursuit of broadcasting.<br> I do believe that through this I will help as many lives as possible. .</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Digital Marketing</li>
+      <li>Global Leadership and personal management</li>
+      <li>data analysis</li>
+      <li>broadcasting and journalism expertise</li>
+    </ul>
+  </section>
+
+  <section id="hobbies">
+    <h2>Hobbies</h2>
+    <p>I enjoy travelling, going to church, reading novels and blogs, and helping people.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>UN YOUTH POWER HUB:</strong> I have been working with the UN for a year on their Youth Power Hub project in Lesotho launched for youth empowerment<br>the project will be running for 5 years and saw me appointed as part of its steering committee.</li>
+      <li><strong> DIGITAL MARKETING:</strong>I am currently working on marketing people's products on social media platforms through my expertise in digital marketing </li>
+      <li><strong>DATA ANALYSIS:</strong> busy working on research and data collection for my desertation</li>
+    </ul>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="phexxy.jpg" alt="UN Youth Power hub">
+      <img src="kat.png" alt="Digital marketing course">
+      <img src="katly.png" alt="Data Analysis">
+      <img src="pheko.png" alt="Global leadership initiatives">
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="mailto:katlehopheko032@gmail.com" method="post" enctype="text/plain">
+      <label for="katleho">Name:</label>
+      <input type="text" id="katleho" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+    <p>Email: <a href="mailto:katlehopheko032@gmail.com">katlehopheko032@gmail.com</a></p>
+    <div class="social-links">
+      <a href="https://facebook.com/yourprofile" target="_blank">Facebook</a>
+      <a href="https://twitter.com/yourprofile" target="_blank">Twitter</a>
+      <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+      <a href="https://github.com/yourprofile" target="_blank">GitHub</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Katleho Pheko. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
